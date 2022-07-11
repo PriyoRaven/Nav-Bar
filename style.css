@@ -35,8 +35,8 @@ body
     display: grid;
     place-items: center;
     position: fixed;
-    top: 0;
-    left: 0;
+    top: 0%;
+    left: 0%;
     z-index: 999;
     box-shadow: 0 2rem 2rem rgba(0, 0, 0, 0.2);
 }
@@ -55,11 +55,15 @@ body
     display: none;
 }
 
-.nav-logo
-{
-    width: 5.4rem;
-    display: grid;
-    place-items: center;
-    font-weight: 500;
+.nav-bar .nav-logo a{
+    color: var(--color-black);
+    font-size: 1.5rem;
+    font-weight: 600;
+}
 
+.nav-links
+{
+    display: flex;
+    align-items: center;
+    gap: 4.5;
 }
