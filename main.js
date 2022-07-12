@@ -19,5 +19,3 @@ const closeNav = () => {
 }
 
 closeNavBtn.addEventListener('click', closeNav)
-
-//refer: https://www.youtube.com/watch?v=VOIJKrYa1iI&ab_channel=EGATOR

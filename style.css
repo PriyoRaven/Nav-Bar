@@ -134,6 +134,7 @@ section h1{
         gap: 0;
         align-items: flex-start;
         display: none;
+        perspective: 1000px;
     }
 
     .nav-links li
@@ -177,4 +178,160 @@ section h1{
     {
         font-size: 2.2rem;
     }
+
+
+    /*==========================1st animation========================*/
+    /* .nav-links li{
+        transform: rotate(-90deg) rotateY(90deg);
+        transform-origin: top right;
+        animation: animation1 1s ease forwards;
+        opacity: 0;
+    }
+
+    .nav-links li:nth-child(2) {
+        animation-delay: 300ms;
+        transform-origin: top left;
+        transform: rotateZ(90deg) rotateY(-90deg);
+    }
+
+    .nav-links li:nth-child(3) {
+        animation-delay: 600ms;
+    }
+    
+    .nav-links li:nth-child(4) {
+        animation-delay: 900ms;
+        transform-origin: top left;
+        transform: rotateZ(90deg) rotateY(-90deg);
+    }
+
+    .nav-links li:nth-child(5) {
+        animation-delay: 1.2s;
+    }
+
+    .nav-links li:nth-child(6) {
+        animation-delay: 1.5s;
+        transform-origin: top left;
+        transform: rotateZ(90deg) rotateY(-90deg);
+    }
+
+    @keyframes animation1 {
+        to {
+            transform: rotate(0);
+            opacity: 1;
+        }
+    } */
+
+    /*========================2nd animation==========================*/
+    /* .nav-links li{
+        animation: animation2 1s ease forwards;
+        transform: rotateY(90deg) rotateX(90deg);
+        transform-origin: top right;
+        opacity: 0;
+    }
+
+    .nav-links li:nth-child(2){
+        animation-delay: 300ms;
+    }
+
+
+    .nav-links li:nth-child(3){
+        animation-delay: 600ms;
+    }
+
+    .nav-links li:nth-child(4){
+        animation-delay: 900ms;
+    }
+
+    .nav-links li:nth-child(5){
+        animation-delay: 1.2s;
+    }
+
+    .nav-links li:nth-child(6){
+        animation-delay: 1.5s;
+    }
+
+
+    @keyframes animation2 {
+        to {
+            transform: rotate(0);
+            opacity: 1;
+        }        
+    } */
+
+    /*=======================3rd animation============================*/
+    /* .nav-links li{
+        animation: animation3 0.3s ease forwards;
+        transform: rotateX(90deg);
+        transform-origin: top right;
+        opacity: 0;
+    }
+
+    .nav-links li:nth-child(2){
+        animation-delay: 200ms;
+    }
+
+
+    .nav-links li:nth-child(3){
+        animation-delay: 400ms;
+    }
+
+    .nav-links li:nth-child(4){
+        animation-delay: 600ms;
+    }
+
+    .nav-links li:nth-child(5){
+        animation-delay: 800ms;
+    }
+
+    .nav-links li:nth-child(6){
+        animation-delay: 1s;
+    }
+
+
+    @keyframes animation3 {
+        to {
+            transform: rotate(0);
+            opacity: 1;
+        }        
+    } */
+
+    /*====================4th animation=====================*/
+    .nav-links {
+        perspective: none;
+    }
+
+    .nav-links li{
+        animation: animation3 1s ease forwards;
+        transform-origin: right;
+        transform: rotateY(-90deg);
+    }
+
+    .nav-links li:nth-child(2){
+        animation-delay: 300ms;
+    }
+
+
+    .nav-links li:nth-child(3){
+        animation-delay: 600ms;
+    }
+
+    .nav-links li:nth-child(4){
+        animation-delay: 900ms;
+    }
+
+    .nav-links li:nth-child(5){
+        animation-delay: 1.2s;
+    }
+
+    .nav-links li:nth-child(6){
+        animation-delay: 1.5s;
+    }
+
+
+    @keyframes animation3 {
+        to {
+            transform: rotate(0);
+        }        
+    }
+
 }
