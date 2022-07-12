@@ -1,8 +1,8 @@
 :root
 {
     /*COLOR*/
-    --color-primary: hsl(194, 100%, 50%);
-    --color-primary-variant: hsl(221, 100%, 50%);
+    --color-primary: hsl(338, 75%, 86%);
+    --color-primary-variant: hsl(345, 100%, 68%);
     --color-gradient: linear-gradient(var(--color-primary), var(--color-primary-variant));
     --color-white: white;
     --color-black: black;
