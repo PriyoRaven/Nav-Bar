@@ -259,7 +259,7 @@ section h1{
     } */
 
     /*=======================3rd animation============================*/
-    /* .nav-links li{
+    .nav-links li{
         animation: animation3 0.3s ease forwards;
         transform: rotateX(90deg);
         transform-origin: top right;
@@ -293,10 +293,10 @@ section h1{
             transform: rotate(0);
             opacity: 1;
         }        
-    } */
+    } 
 
     /*====================4th animation=====================*/
-    .nav-links {
+    /* .nav-links {
         perspective: none;
     }
 
@@ -332,6 +332,6 @@ section h1{
         to {
             transform: rotate(0);
         }        
-    }
+    } */
 
 }
